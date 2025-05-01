@@ -22,7 +22,7 @@
          cout << *pThing << "\n"; 
 
          cout << &Number << "\n";
-         cout << &Number << "\n";
+         cout << &Thing << "\n";
  
          *pNumber = 5;
          *pThing = "Bye";
@@ -33,7 +33,7 @@
          cout << *pThing << "\n"; 
 
          cout << &pNumber << "\n"; 
-         cout << &pNumber << "\n";
+         cout << &pThing << "\n";
 
          cout << "\n";
 
@@ -44,7 +44,7 @@
          cout << **ppThing << "\n";
 
          cout << &ppNumber << "\n";
-         cout << &ppNumber << "\n";
+         cout << &ppThing << "\n";
  
  
  
